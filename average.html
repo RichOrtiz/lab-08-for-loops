@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        var total = 0; //must initialize this as a number beforehand
+        var converted;
+        var average;
+        for (var i = 0; i < 4; i++) {
+            var num1 = prompt("gimmie a number");
+            converted = parseInt(num1,10);
+            //console.log(converted);
+            total = total + converted;
+            //console.log(total);
+
+        }
+        average = total/4;
+        console.log(average);
+    </script>
+</body>
+</html>
